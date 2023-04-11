@@ -5,9 +5,11 @@
     "@stripe/react-stripe-js": "^1.0.0",
     "@stripe/stripe-js": "^1.0.0",
     "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.17.1",
+    "firebase-admin": "^11.6.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.4.0",
@@ -25,7 +27,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "concurrently \"npm run start-client\" \"npm run start-server\""
+    "start": "pm2 start server.js",
+    "kill": "pm2 kill",
+    "list": "pm2 list",
+    "monit": "pm2 monit",
+    "logs": "pm2 logs"
   },
   "eslintConfig": {
     "extends": "react-app"
