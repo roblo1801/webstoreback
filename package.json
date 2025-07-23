@@ -12,7 +12,7 @@
     "firebase-admin": "^11.6.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^4.0.0",
     "stripe": "^8.202.0"
   },
   "devDependencies": {
